@@ -16,3 +16,7 @@ pip install pytest
 # pytest-django (optional)
 -
 pip install pytest-django
+
+# flask8 for detecting error
+make  better code
+pip install Flask
