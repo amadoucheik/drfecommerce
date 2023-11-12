@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     # external apps
     'rest_framework',
     # internal apps
+    'drfecommerce.product',
 ]
 
 MIDDLEWARE = [
