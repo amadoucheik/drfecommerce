@@ -21,9 +21,12 @@ pip install pytest-django
 make  better code
 pip install Flask
 
-# install app in specific folder
+# install app in specific folder with all required files
 python manage.py startapp product ./drfecommerce/product
 
 # install django-mptt
 pip install django-mptt
 
+# create superuser for admin
+python manage.py createsuperuser
+migrate db
